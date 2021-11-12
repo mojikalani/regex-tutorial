@@ -15,9 +15,6 @@ This regex validates whether or not the input is an email address.
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
 
 ## Regex Components
 
@@ -40,7 +37,6 @@ The `{2,6}` will allow a match range of 2-6 characters for the character set of 
 ### Grouping Constructs
 
 Grouping constructs is done by using parentheses () in the regex. 
-In this expression,
 
 `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` 
 
@@ -63,7 +59,7 @@ Anything inside a set of square brackets [ ] represent a range of characters tha
 `[a-z\.]` Which matches any lowercase letters from a-z.
 ### Character Classes
 
-A character class in a regex defines a set of characters, any one of which can occur in an input string to filfill a match. In the code example, the only character classe is: 
+A character class in a regex defines a set of characters, any one of which can occur in an input string to fulfill a match. In the code example, the only character class is: 
 
 `\d` Which is used to match any digit character. 
 
